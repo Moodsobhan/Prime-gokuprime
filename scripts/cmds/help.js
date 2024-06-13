@@ -3,13 +3,13 @@ const axios = require("axios");
 const path = require("path");
 const { getPrefix } = global.utils;
 const { commands, aliases } = global.GoatBot;
-const doNotDelete = "[ 🌟 | 𝗚𝗢𝗞𝗨-𝗕𝗟𝗔𝗖𝗞 ]";
+const doNotDelete = "[ 🌟 | ۜℜaͥℽhͣaͫή Ᏼo͢Ꭲ]";
 
 module.exports = {
   config: {
     name: "help",
     version: "1.17",
-    author: "MR.AYAN", //**orginal author fb I'd : https://m.me/NOOBS.DEVELOPER.AYAN **//
+    author: "𝙋𝙝𝙮𝙩𝙝𝙤𝙣 9𝙓", //**orginal author fb I'd : https://www.facebook.com/its.rai.han.0.8.0 **//
     countDown: 5,
     role: 0,
     shortDescription: {
@@ -34,7 +34,7 @@ module.exports = {
       const categories = {};
       let msg = "";
 
-      msg += `╔═══════════╗\n     𝗚𝗢𝗞𝗨-𝗕𝗟𝗔𝗖𝗞🌟\n╚═══════════╝`;
+      msg += `╔═══════════╗\n     ۜℜaͥℽhͣaͫή Ᏼo͢Ꭲ🌟\n╚═══════════╝`;
 
       for (const [name, value] of commands) {
           if (value.config.role > 1 && role < value.config.role) continue;
@@ -60,8 +60,8 @@ module.exports = {
 
       const totalCommands = commands.size;
       msg += `\n𝗖𝘂𝗿𝗿𝗲𝗻𝘁𝗹𝘆, 𝘁𝗵𝗲 𝗯𝗼𝘁 𝗵𝗮𝘀 ${totalCommands} 𝗰𝗼𝗺𝗺𝗮𝗻𝗱𝘀 𝘁𝗵𝗮𝘁 𝗰𝗮𝗻 𝗯𝗲 𝘂𝘀𝗲𝗱\n`;
-      msg += `𝗧𝘆𝗽𝗲 ${prefix}𝗵𝗲𝗹𝗽 [𝗚𝗢𝗞𝗨-/𝗕𝗟𝗔𝗖𝗞] 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱\n`;
-      msg += `🌟 | 𝗚𝗢𝗞𝗨-𝗕𝗟𝗔𝗖𝗞 `;
+      msg += `𝗧𝘆𝗽𝗲 ${prefix}𝗵𝗲𝗹𝗽 [ۜℜaͥℽhͣaͫή Ᏼo͢Ꭲ] 𝘁𝗼 𝘃𝗶𝗲𝘄 𝘁𝗵𝗲 𝗱𝗲𝘁𝗮𝗶𝗹𝘀 𝗼𝗳 𝘁𝗵𝗮𝘁 𝗰𝗼𝗺𝗺𝗮𝗻𝗱\n`;
+      msg += `🌟 | ۜℜaͥℽhͣaͫή Ᏼo͢Ꭲ`;
 
 
       const helpListImages = [
@@ -113,7 +113,7 @@ module.exports = {
    ➢ 𝙐𝙎𝘼𝙂𝙀
      ➠ ${usage}
    ➢ 𝙉𝙊𝙏𝙀𝙎
-    scripts coding by MR.RAFI
+    scripts coding by 𝙋𝙝𝙮𝙩𝙝𝙤𝙣 9𝙓
   ━━━━━━━━━━━━━━━━━━ꔪ`;
 
         await message.reply(response);
@@ -133,4 +133,4 @@ function roleTextToString(roleText) {
     default:
       return "Unknown role";
   }
-}
+  }
